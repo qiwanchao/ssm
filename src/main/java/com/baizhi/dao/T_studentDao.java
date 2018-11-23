@@ -6,4 +6,7 @@ import java.util.List;
 
 public interface T_studentDao {
    List<T_student> selectAll();
+
+
+
 }

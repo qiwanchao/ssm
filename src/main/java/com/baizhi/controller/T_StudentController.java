@@ -11,6 +11,9 @@ import java.util.Map;
 
 @Controller
 public class T_StudentController {
+
+
+
     @Autowired
     private T_StudentService t_StudentService;
     @RequestMapping("/selectAll")
@@ -18,5 +21,8 @@ public class T_StudentController {
      List<T_student> list=t_StudentService.selectAll();
             map.put("list",list);
         return "index";
+
+
+
     }
 }
